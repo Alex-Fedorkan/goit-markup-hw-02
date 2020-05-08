@@ -187,6 +187,15 @@ header .contacts:focus {
   color: var(--secondary-text-color);
 }
 
+.footer-icon {
+  fill: rgba(255, 255, 255, 0.1);
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+  fill: var(--accent-color);
+}
+
 .sign {
   font-size: 12px;
   line-height: 2;
