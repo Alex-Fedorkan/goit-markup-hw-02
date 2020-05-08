@@ -188,12 +188,16 @@ header .contacts:focus {
 }
 
 .footer-icon {
-  fill: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-icon:hover,
 .footer-icon:focus {
-  fill: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.footer-icon > svg > path {
+  fill: currentColor;
 }
 
 .sign {
