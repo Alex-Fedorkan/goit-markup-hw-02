@@ -101,6 +101,7 @@ header .contacts:focus {
 
 .advantages .title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -122,6 +123,7 @@ header .contacts:focus {
 
 .cases {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
@@ -222,6 +224,7 @@ header .contacts:focus {
 .portfolio .text {
   font-size: 16px;
   line-height: 1.87;
+  color: var(--primary-text-color);
 }
 
 .desc {
